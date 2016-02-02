@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BD934BCE1BFDF015009C3596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD934BCD1BFDF015009C3596 /* AppDelegate.swift */; };
-		BD934BD01BFDF015009C3596 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD934BCF1BFDF015009C3596 /* GameScene.sks */; };
 		BD934BD21BFDF015009C3596 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD934BD11BFDF015009C3596 /* GameScene.swift */; };
 		BD934BD41BFDF015009C3596 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD934BD31BFDF015009C3596 /* GameViewController.swift */; };
 		BD934BD71BFDF015009C3596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD934BD51BFDF015009C3596 /* Main.storyboard */; };
 		BD934BD91BFDF015009C3596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD934BD81BFDF015009C3596 /* Assets.xcassets */; };
 		BD934BDC1BFDF015009C3596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD934BDA1BFDF015009C3596 /* LaunchScreen.storyboard */; };
+		BD934BE61BFDF28E009C3596 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BD934BE41BFDF28E009C3596 /* sprites.atlas */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD934BCA1BFDF015009C3596 /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD934BCD1BFDF015009C3596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD934BCF1BFDF015009C3596 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		BD934BD11BFDF015009C3596 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BD934BD31BFDF015009C3596 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BD934BD61BFDF015009C3596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD934BD81BFDF015009C3596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD934BDB1BFDF015009C3596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD934BDD1BFDF015009C3596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD934BE41BFDF28E009C3596 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				BD934BCD1BFDF015009C3596 /* AppDelegate.swift */,
-				BD934BCF1BFDF015009C3596 /* GameScene.sks */,
 				BD934BD11BFDF015009C3596 /* GameScene.swift */,
 				BD934BD31BFDF015009C3596 /* GameViewController.swift */,
 				BD934BD51BFDF015009C3596 /* Main.storyboard */,
-				BD934BD81BFDF015009C3596 /* Assets.xcassets */,
 				BD934BDA1BFDF015009C3596 /* LaunchScreen.storyboard */,
+				BD934BD81BFDF015009C3596 /* Assets.xcassets */,
 				BD934BDD1BFDF015009C3596 /* Info.plist */,
+				BD934BE41BFDF28E009C3596 /* sprites.atlas */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD934BD01BFDF015009C3596 /* GameScene.sks in Resources */,
+				BD934BE61BFDF28E009C3596 /* sprites.atlas in Resources */,
 				BD934BDC1BFDF015009C3596 /* LaunchScreen.storyboard in Resources */,
 				BD934BD91BFDF015009C3596 /* Assets.xcassets in Resources */,
 				BD934BD71BFDF015009C3596 /* Main.storyboard in Resources */,
